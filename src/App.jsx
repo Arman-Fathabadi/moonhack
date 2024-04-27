@@ -5,6 +5,7 @@ import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import SignUpLogin from "./pages/SignUpLogin";
 import Navigation from "./components/Navigation"; // Import Navigation
+import "./styles/styles.css";
 
 function App() {
   return (

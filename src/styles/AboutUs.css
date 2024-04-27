@@ -1,0 +1,19 @@
+.about-us {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.team-member {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  width: 100px; /* Example */
+  height: auto;
+  margin-right: 15px;
+}
+
+.team-member p {
+  margin: 0;
+}
