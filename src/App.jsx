@@ -15,7 +15,7 @@ import "./styles/SignUpLogin.css";
 function App() {
   return (
     <BrowserRouter>
-      <Navigation /> {/* Add Navigation component */}
+      <Navigation /> {/* Add Navigation component to be added here for later */}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutUs />} />
