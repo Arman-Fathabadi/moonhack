@@ -4,8 +4,13 @@ import LandingPage from "./pages/LandingPage";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import SignUpLogin from "./pages/SignUpLogin";
-import Navigation from "./components/Navigation"; // Import Navigation
-import "./styles/styles.css";
+import Navigation from "./components/Navigation";
+import "./styles/styles.css"; 
+import "./styles/LandingPage.css";
+import "./styles/AboutUs.css";
+import "./styles/Contact.css";
+import "./styles/SignUpLogin.css";
+
 
 function App() {
   return (

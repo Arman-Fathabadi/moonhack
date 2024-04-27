@@ -7,7 +7,7 @@ body {
 
 /* Navigation Bar */
 nav {
-  background-color: #f0f0f0; /* Example color */
+  background-color: #b0eba9; /* Example color */
   padding: 10px;
 }
 
@@ -16,7 +16,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around; /* Adjust as needed */
+  justify-content: space-around; /* Adjust needed */
 }
 
 nav li a {
