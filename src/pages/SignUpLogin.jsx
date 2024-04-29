@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/SignUpLogin.css";
 
-function SignUpLogin() {
+const SignUpLogin = () => {
   return (
     <div>
       <h1>Sign Up / Log In</h1>

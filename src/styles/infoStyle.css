@@ -1,0 +1,17 @@
+.info-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.info-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-section h3 {
+    color: #333;
+}
+
+.info-section p {
+    line-height: 1.6;
+}
