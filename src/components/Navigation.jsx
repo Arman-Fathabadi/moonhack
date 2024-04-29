@@ -14,13 +14,13 @@ function Navigation() {
           <Link to="/Info">Info</Link>
         </li>
         <li>
-          <Link to="/about">About Us</Link>
+          <Link to="/About">About Us</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Contact">Contact</Link>
         </li>
         <li>
-          <Link to="/signup">Sign Up/Login</Link>
+          <Link to="/Signup">Sign Up/Login</Link>
         </li>
       </ul>
     </nav>
