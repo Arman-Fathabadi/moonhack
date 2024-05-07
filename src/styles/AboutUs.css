@@ -3,6 +3,10 @@
   line-height: 1.6;
 }
 
+body{background-color:dimgrey}
+
+#about{color:white}
+
 .team-member {
   display: flex;
   margin-bottom: 20px;
