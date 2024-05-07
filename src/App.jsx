@@ -1,4 +1,6 @@
 import React from "react";
+import PromptSpace from "./pages/promptSpace";
+import Welcome from "./pages/welcome";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import AboutUs from "./pages/AboutUs";
@@ -14,15 +16,23 @@ import "./styles/SignUpLogin.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navigation /> {/* Add Navigation component to be added here for later */}
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/signup" element={<SignUpLogin />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/signup" element={<SignUpLogin />} />
+        </Routes>
+        <div>
+          <Welcome />
+          <div className="content">
+            <PromptSpace />
+          </div>
+        </div>
+      </BrowserRouter>
+    </div>
   );
 }
 
