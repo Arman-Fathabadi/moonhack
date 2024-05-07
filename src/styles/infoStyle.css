@@ -3,6 +3,8 @@
     font-family: Arial, sans-serif;
 }
 
+body{background-color:grey}
+
 .info-section {
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
