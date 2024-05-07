@@ -1,0 +1,30 @@
+.prompt-space {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    border-top: 1px solid #ccc; 
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.prompt-input {
+    width: calc(100% - 120px);
+    min-height: 50px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.prompt-button{
+    background-color: #ff6000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
